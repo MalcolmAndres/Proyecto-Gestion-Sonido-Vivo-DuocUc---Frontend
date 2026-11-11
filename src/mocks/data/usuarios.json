@@ -1,0 +1,6 @@
+[
+  { "id": 1, "nombre": "Dueño Sonido Vivo", "email": "admin@sonidovivo.cl", "password": "admin123", "rol": "ADMIN", "activo": true },
+  { "id": 2, "nombre": "Vendedor Uno", "email": "vendedor@sonidovivo.cl", "password": "vendedor123", "rol": "VENDEDOR", "activo": true },
+  { "id": 3, "nombre": "Cliente Demo", "email": "cliente@correo.cl", "password": "cliente123", "rol": "CLIENTE", "activo": true },
+  { "id": 4, "nombre": "Ex Vendedor", "email": "inactivo@sonidovivo.cl", "password": "inactivo123", "rol": "VENDEDOR", "activo": false }
+]

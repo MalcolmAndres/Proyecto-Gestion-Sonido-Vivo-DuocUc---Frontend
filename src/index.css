@@ -1,0 +1,33 @@
+:root {
+  --sv-primario: #e0a526;      /* dorado: botones principales, marca, links destacados */
+  --sv-primario-hover: #c18b14;
+  --sv-oscuro: #1d1d1f;        /* navbar, footer, fondos de login */
+  --sv-fondo: #f6f6f4;         /* fondo de las páginas */
+  --sv-texto: #222222;
+  --sv-borde: #dddddd;
+  /* Éxito / advertencia / error: usar los de Bootstrap (success, warning, danger) */
+
+  --sv-fuente: "Inter", system-ui, sans-serif;
+}
+
+body {
+  background: var(--sv-fondo);
+  color: var(--sv-texto);
+  font-family: var(--sv-fuente);
+}
+
+h1 { font-size: 1.75rem; font-weight: 700; margin-bottom: 1rem; }
+
+.brand { font-weight: 800; color: var(--sv-primario) !important; text-decoration: none; }
+
+.barra { background: var(--sv-oscuro); }
+.barra a { color: #fff; text-decoration: none; }
+.barra a:hover { color: var(--sv-primario); }
+.barra span { color: #ccc; }
+
+/* Botón principal del equipo*/
+.btn-primario { background: var(--sv-primario); color: var(--sv-oscuro); border: none; font-weight: 600; }
+.btn-primario:hover { background: var(--sv-primario-hover); color: var(--sv-oscuro); }
+
+/* Imágenes de las tarjetas de producto, todas del mismo alto */
+.card-img-top { aspect-ratio: 4 / 3; object-fit: cover; }

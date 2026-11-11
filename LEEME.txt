@@ -1,0 +1,20 @@
+BASE COMPARTIDA - SONIDO VIVO
+
+Cómo correrlo:  npm install  ->  npm run dev  ->  http://localhost:5173
+
+YA ESTÁ HECHO (base común, no la cambien sin avisar):
+  utils/roles.js, estados.js, formato.js   constantes y formato de precio/fecha
+  api/httpClient.js, api/endpoints.js      axios + token + todas las URLs
+  services/config.js                       lee VITE_USE_MOCKS del .env
+  main.jsx, App.jsx                         entrada y providers
+  routes/AppRouter.jsx, ProtectedRoute.jsx todas las rutas con protección por rol
+  context/AuthContext.jsx                   login FALSO: elige rol con un botón
+  index.css                                 paleta del equipo (variables --sv-...)
+
+TEMPORAL (lo reemplaza Persona 1):
+  pages/auth/Login.jsx, layouts/MainLayout.jsx, layouts/PublicLayout.jsx
+
+PÁGINAS: solo tienen un título. Cada uno llena las suyas (dice el dueño arriba).
+ARCHIVOS VACÍOS: mocks, services, componentes, hooks... los escriben ustedes.
+
+Persona 3: cuando haga CartContext, agregar <CartProvider> en App.jsx dentro de <AuthProvider>.
